@@ -14,3 +14,6 @@ Landing Page is a slicing by me, using UI from https://pixel.buildwithangga.com/
 * Install via npm: npm i startbootstrap-landing-page
 * Clone the repo: git clone https://github.com/sigitpratm/BropertyLandingPage.git
 * Fork, Clone, or Download on GitHub
+
+# Bug and Issue
+Have a bug or an issue with this template? Open a new issue here on GitHub or leave a comment
