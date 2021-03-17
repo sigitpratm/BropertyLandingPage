@@ -1,0 +1,388 @@
+/* General */
+* {
+    font-family: Poppins;
+}
+
+.center {
+    text-align: center;
+    border: 3px solid green;
+  }
+
+/* Navbar */
+.nav-link {
+    color: #9094A2 !important;
+    margin-right: 30px;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+}
+
+#my-account {
+    color: #132039 !important;
+    background-color: #83D987;
+    border-radius: 4px;
+
+}
+
+.index {
+    color: #83D987 !important;
+}
+
+/* End Navbar */
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(assets/img/banner.jpg);
+    height: 400px;
+}
+
+.jumbotron .display-4 {
+    line-height: 45px;
+    font-size: 30px;
+    font-weight: 550;
+    text-align: center;
+    color: #ffff;
+}
+
+.jumbotron .lead {
+    text-align: center;
+    margin-top: 20px;
+    color: #9094A2;
+    font-size: 16px;
+}
+/* End Jumbotron */
+
+/* Search Panel */
+.search-item {
+    display: block;
+    padding: 5px;
+}
+
+.search-panel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-top: -150px;
+    width: 80%;
+    height: 250px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.20)
+}
+
+#button-explore {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    color: #132039;
+    background-color: #83D987;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 6px 10px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #F7F7F9;
+}
+/* End Search Panel */
+
+/* Popular-Place Content */
+.featured{
+    background-image: url(assets/img/Union.png);
+}
+
+.popular-space {
+    margin-top: 50px;
+}
+
+#judul {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#popular-img {
+    width: 300px;
+    border-radius: 28px;
+}
+
+.item{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.box-number{
+    padding-top: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 22px;
+    background-color: #E7E5F9;
+    color: #5943A6;
+}
+
+#text-item{
+    margin-left: 25px;
+    font-size: 16px;
+}
+/* End Popular-Place Content */
+
+
+/* Jumlah Space */
+.total-space {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.konten-border{
+    text-align: center;
+}
+
+#jum {
+    font-size: 20px;
+    color: #0F1837;
+    margin-bottom: 0px;
+}
+
+#desc-jum{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    color: #8A8C97;
+}
+/* End Jumlah Space */
+
+/* Content Bottom */
+
+#judul-konten-bawah{
+    font-size: 32px;
+    color: #0F1837;
+}
+#link-konten-bawah{
+    font-size: 16px;
+    color: #9094A2;
+    text-decoration: underline;
+}
+/* End Content Bottom */
+
+/* Recomendation Place */
+.box{
+    line-height: 15px;
+    margin-left: 25px ;
+    margin-right: 25px;
+}
+
+.img-suggest{
+    display: inline-block;
+    width: 293px;
+    height: 380px;
+    border-radius: 16px;
+}
+.text-box{
+    margin-top: 20px;
+}
+
+#box-title{
+    font-size: 20px;
+    columns: #132039;
+}
+#box-place{
+    font-size: 16px;
+    color: #898889;
+}
+
+#price{
+    line-height: 200%;
+    text-align: right;
+    font-size: 20px;
+    color: #0A9F82;
+}
+/* End Recomendation Place */
+
+/* Footer */
+.footer{
+    margin-top: 100px;
+    border-radius: 6px;
+    width: 715px;
+    height: 115px;
+    background-color: #0F1837;
+    color: #ffff;
+    padding-left: 30px;
+}
+
+.item-signup{
+    display: inline-block;
+    padding-top: 25px;
+    margin-right: 0px;    
+}
+
+#input-type{
+    width: 230px;
+    padding: 6px 10px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#button-signup {
+    width: 170px;
+    height: 70px;
+    color: #132039;
+    background-color: #83D987;
+}
+/* End Footer */
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+
+    .navbar {
+        margin-top: 10px;
+    }
+
+    .jumbotron {
+        background-image: url(assets/img/banner.jpg);
+        background-size: cover;
+        height: 685px;
+        margin-top: -130px;
+
+    }
+
+    .jumbotron .display-4 {
+        line-height: 65px;
+        text-align: left;
+        font-size: 48px;
+        font-weight: bold;
+        margin-top: 140px;
+    }
+
+    .jumbotron .lead {
+        line-height: 30px;
+        text-align: left;
+        margin-top: 25px;
+        color: #9094A2;
+        font-size: 16px;
+    }
+
+    /* Search Panel */
+    .search-item {
+        display: inline-block;
+        padding: 3px;
+    }
+
+    .search-panel {
+        padding-left: 15px;
+        padding-top: 10px;
+        margin-top: -190px;
+        margin-left: 115px;
+        width: 645px;
+        height: 100px;
+        background-color: white;
+        border-radius: 4px;
+    }
+
+    #button-explore {
+        width: 140px;
+        height: 65px;
+        color: #132039;
+        background-color: #83D987;
+        margin-top: -30px;
+        box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.20)
+    }
+
+    input[type=text] {
+        padding: 5px 10px;
+        display: block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: #F7F7F9;
+    }
+    /* End Search Panel */
+
+
+    
+/* Popular-Place Content */
+.featured{
+    background-image: url(assets/img/Union.png);
+}
+
+.popular-space {
+    margin-top: 135px;
+}
+
+#judul {
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+#popular-img {
+    width: 420px;
+    height: 550px;
+    border-radius: 28px;
+}
+
+.item{
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.img-space{
+margin-left: 50px;
+}
+
+.item-space{
+margin-left: 80px;
+}
+
+.box-number{
+    padding-top: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 22px;
+    background-color: #E7E5F9;
+    color: #5943A6;
+}
+
+#text-item{
+    margin-left: 20px;
+    font-size: 16px;
+}
+/* End Popular-Place Content */
+
+/* Jumlah Space */
+.text-center{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.konten-border{
+    border-left: solid 1px #D5D9E0;
+    border-right: solid 1px #D5D9E0;
+}
+
+#jum {
+    font-size: 36px;
+    color: #0F1837;
+    margin-bottom: 0px;
+}
+
+#desc-jum{
+    font-size: 20px;
+    color: #8A8C97;
+}
+/* End Jumlah Space */
+
+
+}
